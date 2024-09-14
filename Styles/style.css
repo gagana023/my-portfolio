@@ -1,0 +1,203 @@
+
+body{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 30px;
+}
+
+*{
+    font-family: "sora";
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+
+
+.menu-item{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+
+.title{
+    text-decoration: underline;
+}
+
+.main-button{
+    display: flex;
+    background-color: #884efa;
+    border-radius: 35px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section{
+    display: flex;
+    background-color: #f6f3fc;
+    border-radius: 27px;
+    padding-bottom: 25px;
+}
+
+.intro{
+    margin: 0px 130px;
+}
+
+.heading{
+    font-size: 4rem;
+    padding: 20px;
+    color: #884efa;
+}
+
+.profile-pic{
+    padding: 20px;
+    padding-right: 30px;
+    height: 360px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.intro-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media-icon svg{
+    height: 1.75rem;
+    width: 1.75rem;
+    fill: #884efa;
+    border-radius: 50%;
+    border: 1px solid #884efa;
+    padding: 0.6rem;
+}
+
+.primary-button{
+    background-color: #884efa;
+    text-decoration: none;
+    height: 20px;
+    width: 130px;
+    font-size: 1.5rem;
+    border-radius: 35px;
+    text-align: center;
+    color: #fff;
+    padding: 1.1rem;
+}
+
+.intro-heading{
+    display: flex;
+    font-size: 2rem;
+}
+
+.stats-section{
+    background-color: #f6f3fc;
+    margin-top: 50px;
+    display: flex;
+    padding: 24px;
+    justify-content:space-around;
+    border-radius: 35px;
+}
+
+.stats-section svg{
+    fill:#884efa;
+    height: 50px;
+    width: 50px;
+}
+
+.name{
+    color: #884efa;
+    font-size: 3rem;
+    margin: 0px;   
+}
+
+.description{
+    color: #884efa;
+    font-size: 1.5rem;
+    margin: 0px;
+}
+
+
+
+.achievement{
+    height: 400px;
+    width: 600px;
+    background-color: #f6f3fc;
+    font-family: "sora";
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 35px;
+
+}
+
+.header{
+    font-size: 3rem;
+    color: #884efa;
+
+}
+
+.story{
+    font-size: 1.25rem;
+    color: black;
+}
+
+.ID{
+    height: 400px;
+    width: 600px;
+    background-color: #f6f3fc;
+    font-family: "sora";
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 35px;
+}
+
+.heading2{
+    color: #884efa;
+    font-size: 1.25rem;
+}
+
+.underneath{
+    color: black;
+    font-size: 1.25rem;
+}
+
+
+.bragging{
+    display: flex;
+    gap: 34px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #884efa;
+    height: 180px;    
+}
+
+.footer{
+    display:flex;
+    font-size: 1.34rem;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.foot{
+    color: #fff;
+    text-decoration: none;
+}
